@@ -35,17 +35,7 @@ public class UserService {
         return userRepo.getAllUser();
     }
 
-   /* public String updateUserInfo(Integer id , User value) {
-        List<User> originalList = getAllUsers() ;
-        for(User data : originalList){
-            if(data.getUserId()== id){
-                originalList.set(data = value);
-                originalList.add(value);
-                return "Information updated Successfully" ;
-            }
-        }
-        return "User Not Found" ;
-    }*/
+  
 
     public String updateUserInfo(Integer id , User value) {
         List<User> originalList = getAllUsers();
